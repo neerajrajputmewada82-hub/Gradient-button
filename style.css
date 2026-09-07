@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
+    font-family:Arial,sans-serif;
+}
+
+/* Gradient Button */
+
+.gradient-btn{
+    padding:16px 35px;
+    border:none;
+    border-radius:10px;
+
+    background:linear-gradient(
+        45deg,
+        #ff0080,
+        #7928ca,
+        #00c6ff
+    );
+
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.4s;
+}
+
+/* Hover Effect */
+
+.gradient-btn:hover{
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 10px 30px rgba(0,198,255,0.5);
+}
+
+/* Click Effect */
+
+.gradient-btn:active{
+    transform:translateY(0);
+}
